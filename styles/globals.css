@@ -1,0 +1,5 @@
+:root { color-scheme: light dark; }
+body { margin: 0; font-family: system-ui, Arial, sans-serif; }
+main { padding: 2rem; }
+button { padding: 0.5rem 1rem; }
+input { padding: 0.5rem; margin-right: 0.5rem; }

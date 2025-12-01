@@ -1,5 +1,31 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Setup
+
+1. Create a `.env.local` with Supabase (optional):
+	```
+	NEXT_PUBLIC_SUPABASE_URL=your_url
+	NEXT_PUBLIC_SUPABASE_ANON_KEY=your_key
+	```
+
+2. Install dependencies:
+	```powershell
+	npm install
+	```
+
+## Scripts
+
+- `dev`: Start dev server
+- `build`: Production build
+- `start`: Run production server
+- `lint`: Lint codebase
+- `type-check`: Run TypeScript check
+
+## Run
+
+```powershell
+npm run dev
+```
 ## Getting Started
 
 First, run the development server:
