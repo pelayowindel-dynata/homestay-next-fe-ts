@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Session } from '@supabase/supabase-js';
 import { getSession, onAuthChange, sendMagicLink, signOut } from '../services/auth';
+import { Button } from '@/components/ui/button';
 
 export default function Home() {
   const [session, setSession] = useState<Session | null>(null);
@@ -34,7 +35,7 @@ export default function Home() {
       ) : (
         <div>
           <p>Signed in as {session.user.email}</p>
-          <button onClick={doSignOut}>Sign Out</button>
+          <Button variant="secondary" onClick={doSignOut}>Sign Out</Button>
         </div>
       )}
     </main>
